@@ -1,19 +1,10 @@
-const list = [1, 2, 3, 4, 5]
+console.log(10 % 3)
 
-console.log(list.at(-1))
+a = BigInt(0)
 
-let list2 = list
+console.log(a)
 
-list2.splice(-1, 1)
-list2.push(["a", "b"])
-console.log(list)
-console.log(list2)
+a++
+console.log(a)
 
-console.log(list[list.length-1])
-
-
-if ("a" in ["a", "b"]){
-    console.log("a")
-} else {
-    console.log("B")
-}
+a+= b
